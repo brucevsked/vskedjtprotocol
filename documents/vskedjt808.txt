@@ -1,0 +1,27 @@
+数据通信链路异常 abnormal data communication link
+
+注册 register
+注销 unregister
+鉴权 authentication
+
+位置汇报策略 location reporting strategy
+位置汇报方案 location reporting program
+拐点补传 additional points report while turning
+电话接听策略 answering strategy
+短信文本报警 sms text alarm
+多中心连接策略 multi-center connection strategy
+
+缩略语
+标识 ID Identity
+接入点名称 APN Access Point Name
+一个GNU自由软件的文件压缩程序 GZIP GNU zip
+液晶显示屏 LCD Liquid Crystal Display
+一种非对称密码算法 RSA RonRivestAdiShamirthLenAdlemn开发取自三者名字
+短信消息服务 SMS Short Message Service
+传输控制协议 TCP Transmission Control Protocol
+文本到语音 TTS Text To Speech
+用户数据报协议 UDP User Datagram Protocol
+车辆速度传感器 VSS Vehicle Speed Sensor
+全球导航卫星系统 GNSS Global Navigation Stellite System
+汉字内码扩展规范 GBK Chinese Internal Code Specification
+
