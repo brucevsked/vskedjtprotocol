@@ -439,19 +439,19 @@ public interface JT808MessageID {
     int platformRsaPublicKey = 0x8A00;
 
     /**
-     * 平台通用下链路消息保留
+     * 平台下行消息保留
      * 平台 --> 终端 (下行消息)
      */
     int platformDownlinkReserved = 0x8F00 - 0x8FFF;
 
     /**
-     * 厂商自定义消息,终端硬件厂商 2019 new
+     * 厂商自定义上行消息 2019 new
      * 终端 --> 平台 (上行消息)
      */
     int manufacturerCustomUplink = 0xE000 - 0xEFFF;
 
     /**
-     * 企业自定义消息,平台运营企业 2019 new
+     * 厂商自定义下行消息 2019 new
      * 终端 --> 平台 (下行消息)
      */
     int commercialCustomDownlink = 0xF000 - 0xFFFF;
