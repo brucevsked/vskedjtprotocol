@@ -25,3 +25,20 @@
 全球导航卫星系统 GNSS Global Navigation Stellite System
 汉字内码扩展规范 GBK Chinese Internal Code Specification
 
+
+数据类型映射，java版本
+jt808数据类型 java数据类型
+BYTE byte
+WORD int
+DWORD long
+BYTE[n] byte[]
+BCD[n] byte[]
+STRING String
+
+传输规则
+八位。
+协议应采用大端模式的网络字节序来传递字和双字。传输规则约定如下:
+——字节(BYTE)的传输,按照字节流的方式传输;
+——字(WORD)的传输,先传递高八位,再传递低八位;
+—————双字(DWORD)的传输,先传递高二十四位,然后传递高十六位,再传递高八位,最后传递低
+
