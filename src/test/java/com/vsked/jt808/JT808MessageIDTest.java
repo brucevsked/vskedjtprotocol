@@ -384,6 +384,6 @@ public class JT808MessageIDTest {
 
     @Test
     public void commercialCustomDownlink() {
-        formatOutput("商自定义下行消息", JT808MessageID.commercialCustomDownlink);
+        formatOutput("厂商自定义下行消息", JT808MessageID.commercialCustomDownlink);
     }
 }
