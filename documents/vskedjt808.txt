@@ -28,11 +28,11 @@
 
 数据类型映射，java版本
 jt808数据类型 java数据类型
-BYTE byte
+BYTE byte或int
 WORD int
-DWORD long
-BYTE[n] byte[]
-BCD[n] byte[]
+DWORD long或BigDecimal
+BYTE[n] byte[]或String
+BCD[n] byte[]或String
 STRING String
 
 传输规则
